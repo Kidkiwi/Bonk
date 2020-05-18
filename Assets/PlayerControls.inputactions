@@ -1,0 +1,33 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "1b62495b-1b71-4342-b864-d74ae3e6dce8",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "PassThrough",
+                    "id": "2a4b466e-e8d4-4dac-a8eb-9a0b0d1a0bfe",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2d80e1b5-5809-43db-9600-1cb5fa6f1f5f",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
